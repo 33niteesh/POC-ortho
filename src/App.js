@@ -87,7 +87,7 @@ function App(props) {
         })
       }
           <button className="filter-btn" onClick={() => { done() }}>Filter</button>
-          <button className="filter-btn" onClick={()=>setPopup(false)}>close</button>
+          <button className="filter-btn" onClick={()=>window.reload()}>close</button>
 
         </div>:<></>
       }
