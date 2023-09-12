@@ -1,0 +1,73 @@
+table {
+  border: 1px rgb(81, 80, 80) solid;
+  border-radius:5px;
+  background:rgba(136, 130, 130, 0.288);
+}
+.filter-btn{
+  background:red;
+  border:none;
+  color:white;
+  font-size:medium;
+  padding:10px 60px;
+  margin:20px;
+  border-radius:5px;
+}
+.popup{
+  z-index:999;
+  width:300px;
+  height:300px;
+  margin-top:20px ;
+  margin-left:350px;
+  background:rgba(255, 255, 255, 1);
+  position:fixed;
+  border:1px solid grey;
+}
+.date{
+  padding:20px;
+  margin:20px;
+}
+p{
+  padding:0px
+}
+th{
+  background:rgba(255, 0, 0, 0.735);
+  padding: 0 40px ;
+  color:white;
+  height:40px;
+}
+
+.App{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+td{
+  padding:10px 50px;
+  margin:0px  ;
+  color:white 
+}
+.sort{
+  display:flex;
+}
+.sort-icons{
+  flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 0px;
+}
+svg{
+  height:10px
+}
+.filter{
+  padding:5px 10px;
+  background:red;
+  font-size:medium;  
+  color:white;
+  border:none;
+  margin-left:550px;
+  border-radius:5px
+}
